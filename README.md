@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./logo.png" alt="Dentytech Landing Page" width="200">
+  <img src="./icon.png" alt="Dentytech Landing Page" width="150">
 </div>
 
 # Dentytech 🦷
