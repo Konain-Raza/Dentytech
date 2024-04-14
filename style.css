@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Gillroy;
+  src: url(./Assets/Font/Gilroy-Medium.ttf);
+}
+:root {
+  --main-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gillroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+nav {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0vw 3vw;
+  
+}
+
+#nav-part-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-part-1 h3 {
+  font-size: 1vw;
+  border: 1.5px solid rgba(0, 0, 0, 0.473);
+  border-radius: 50px;
+  padding: 0.5vw 1vw;
+  font-weight: 500;
+}
+#nav-part-1 i {
+  font-size: 1vw;
+  border: 1.5px solid rgba(0, 0, 0, 0.473);
+  border-radius: 50px;
+  padding: 0.5vw 1vw;
+  font-weight: 500;
+}
+#nav-part-2 h1 {
+  font-weight: 500;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+#nav-part-3 #login-button {
+  border: 1.5px solid rgba(0, 0, 0, 0.473);
+  border-radius: 50px;
+  padding: 0.5vw 1vw;
+  background-color: var(--main-color);
+  font-size: 1.1vw;
+}
+#nav-part-3 #signup-button {
+  border: 1.5px solid black;
+  border-radius: 50px;
+  padding: 0.6vw 1vw;
+  background-color: var(--main-color);
+  font-size: 1.1vw;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+#hero {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#hero h1 {
+  font-size: 9vw;
+  font-weight: 500;
+  /* margin-top: 30vh; */
+}
+
+#hero img {
+  height: 55vh;
+  width: 18vw;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 20px;
+}
+
+#img-1 {
+  transform: translate(5%, 0%) rotate(-40deg);
+  transition: all ease 0.5s;
+}
+#img-2 {
+  transform: translate(5%, 0%) rotate(-30deg);
+  transition: all ease 0.5s;
+}
+#img-3 {
+  transform: translate(5%, 0%) rotate(-20deg);
+  transition: all ease 0.5s;
+}
+#img-4 {
+  transform: translate(5%, 0%) rotate(-10deg);
+  transition: all ease 0.5s;
+}
+#bottom {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 2%;
+  align-items:flex-end;
+  justify-content: space-between;
+  padding: 0 3vw;
+  font-size: 3vh;
+  color: rgba(0, 0, 0, 0.685);
+  
+}
+
+#bottom-part-1{
+margin-bottom: 1.4vh;
+}
+#bottom-part-2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2vh;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1vh;
+  font-size: 4vh;
+  
+}
